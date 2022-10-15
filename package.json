@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "convertierer.ch ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "konvertieren",
+    "mp4",
+    "convertieren",
+    "einfach",
+    "konvertieren",
+    "youtube",
+    "zu",
+    "mp4"
+  ],
+  "author": "Wasili",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemailer": "^6.8.0",
+    "ytdl-core": "^4.11.2"
+  },
+  "engines": {
+    "node": "16.15.0"
+  }
+}
